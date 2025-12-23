@@ -41,17 +41,26 @@ const FourSculpture = () => {
 
           {/* Visual Section */}
           <section className="sculpture-visual">
-            {/* Hero Image Placeholder */}
+            {/* Hero Image */}
             <div className="sculpture-image-hero">
-              <div className="image-placeholder">
-                <span className="placeholder-text">Hero Image</span>
-              </div>
+              <img 
+                src="https://customer-assets.emergentagent.com/job_elemental-art/artifacts/sapwohmp_crystal%20image.jpg" 
+                alt="Four - Quartz Crystal Sculpture"
+                className="sculpture-img"
+              />
             </div>
 
-            {/* Detail Image Placeholder */}
-            <div className="sculpture-image-detail">
-              <div className="image-placeholder image-placeholder-small">
-                <span className="placeholder-text">Detail</span>
+            {/* Video Section */}
+            <div className="sculpture-video">
+              <div className="video-wrapper">
+                <iframe 
+                  src="https://www.youtube.com/embed/mlYTNbPvq1I?si=xM-V2tuPmnewIEle" 
+                  title="Four - Crystal Sculpture"
+                  frameBorder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                  referrerPolicy="strict-origin-when-cross-origin" 
+                  allowFullScreen
+                />
               </div>
             </div>
           </section>
