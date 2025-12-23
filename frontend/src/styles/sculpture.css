@@ -95,7 +95,7 @@
 .sculpture-visual {
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: 48px;
   align-items: center;
 }
 
@@ -103,31 +103,34 @@
   width: 100%;
 }
 
-.sculpture-image-detail {
-  width: 60%;
-}
-
-.image-placeholder {
+.sculpture-img {
   width: 100%;
-  aspect-ratio: 4/5;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+/* Video Section */
+.sculpture-video {
+  width: 100%;
+}
+
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
   background-color: #EBE9E5;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid #E0DDD8;
 }
 
-.image-placeholder-small {
-  aspect-ratio: 1/1;
-}
-
-.placeholder-text {
-  font-family: 'Inter', sans-serif;
-  font-size: 12px;
-  font-weight: 400;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: #A9A49C;
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
 }
 
 /* Divider */
