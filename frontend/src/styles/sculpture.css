@@ -1,0 +1,305 @@
+/* Base Page Styles */
+.sculpture-page {
+  min-height: 100vh;
+  background-color: #F7F5F2;
+  display: flex;
+  justify-content: center;
+  padding: 60px 24px;
+}
+
+/* Frame Container */
+.sculpture-frame {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Main Panel */
+.sculpture-panel {
+  width: 100%;
+  background-color: #FDFCFA;
+  padding: 80px 60px;
+  box-shadow: 
+    0 1px 3px rgba(61, 56, 50, 0.04),
+    0 4px 12px rgba(61, 56, 50, 0.03),
+    0 8px 32px rgba(61, 56, 50, 0.02);
+}
+
+/* Header */
+.sculpture-header {
+  text-align: center;
+}
+
+.sculpture-eyebrow {
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #8A857D;
+  display: block;
+  margin-bottom: 24px;
+}
+
+.sculpture-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 72px;
+  font-weight: 400;
+  font-style: italic;
+  color: #3D3832;
+  margin: 0;
+  letter-spacing: -0.02em;
+  line-height: 1;
+}
+
+/* Spacers */
+.sculpture-spacer-sm {
+  height: 24px;
+}
+
+.sculpture-spacer-md {
+  height: 40px;
+}
+
+.sculpture-spacer-lg {
+  height: 64px;
+}
+
+.sculpture-spacer-xl {
+  height: 96px;
+}
+
+/* Description */
+.sculpture-description {
+  max-width: 560px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.sculpture-description p {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.9;
+  color: #5C574F;
+  margin: 0 0 28px 0;
+}
+
+.sculpture-description p:last-child {
+  margin-bottom: 0;
+}
+
+/* Visual Section */
+.sculpture-visual {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+}
+
+.sculpture-image-hero {
+  width: 100%;
+}
+
+.sculpture-image-detail {
+  width: 60%;
+}
+
+.image-placeholder {
+  width: 100%;
+  aspect-ratio: 4/5;
+  background-color: #EBE9E5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #E0DDD8;
+}
+
+.image-placeholder-small {
+  aspect-ratio: 1/1;
+}
+
+.placeholder-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #A9A49C;
+}
+
+/* Divider */
+.sculpture-divider {
+  width: 48px;
+  height: 1px;
+  background-color: #D8D4CE;
+  margin: 0 auto;
+}
+
+/* Specifications */
+.sculpture-specs {
+  text-align: center;
+}
+
+.specs-heading {
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #8A857D;
+  margin: 0 0 48px 0;
+}
+
+.specs-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px 60px;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.specs-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: left;
+}
+
+.specs-label {
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #A9A49C;
+}
+
+.specs-value {
+  font-family: 'Playfair Display', serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: #3D3832;
+}
+
+.sculpture-price {
+  margin-top: 56px;
+}
+
+.price-value {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  font-weight: 400;
+  color: #3D3832;
+  letter-spacing: 0.02em;
+}
+
+/* Contact */
+.sculpture-contact {
+  text-align: center;
+}
+
+.contact-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #A9A49C;
+  margin: 0 0 16px 0;
+}
+
+.contact-email {
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #3D3832;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  padding-bottom: 2px;
+  transition: border-color 0.3s ease;
+}
+
+.contact-email:hover {
+  border-bottom-color: #3D3832;
+}
+
+/* Footer */
+.sculpture-footer {
+  margin-top: 64px;
+  text-align: center;
+}
+
+.footer-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  color: #B5B0A8;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .sculpture-page {
+    padding: 40px 16px;
+  }
+
+  .sculpture-panel {
+    padding: 56px 32px;
+  }
+
+  .sculpture-title {
+    font-size: 52px;
+  }
+
+  .sculpture-spacer-lg {
+    height: 48px;
+  }
+
+  .sculpture-spacer-xl {
+    height: 72px;
+  }
+
+  .sculpture-description p {
+    font-size: 14px;
+  }
+
+  .specs-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    text-align: center;
+  }
+
+  .specs-item {
+    text-align: center;
+  }
+
+  .sculpture-image-detail {
+    width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  .sculpture-panel {
+    padding: 48px 24px;
+  }
+
+  .sculpture-title {
+    font-size: 42px;
+  }
+
+  .sculpture-eyebrow {
+    font-size: 10px;
+  }
+
+  .sculpture-description p {
+    font-size: 13px;
+    line-height: 1.85;
+  }
+
+  .price-value {
+    font-size: 24px;
+  }
+}
