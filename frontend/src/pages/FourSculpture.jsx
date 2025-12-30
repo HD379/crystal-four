@@ -116,10 +116,10 @@ const FourSculpture = () => {
           <section className="sculpture-contact">
             <p className="contact-text">For inquiries</p>
             <a 
-              href="mailto:studio@four-sculpture.com" 
+              href="mailto:dane@mysticallandscapes.com" 
               className="contact-email"
             >
-              studio@four-sculpture.com
+              dane@mysticallandscapes.com
             </a>
           </section>
 
