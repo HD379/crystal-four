@@ -104,7 +104,7 @@ const FourSculpture = () => {
                 <span className="price-value">$33,500</span>
               </div>
               <div className="price-item">
-                <span className="price-label">Wholesale</span>
+                <span className="price-label">Wholesale Price</span>
                 <span className="price-value">$17,500</span>
               </div>
             </div>
