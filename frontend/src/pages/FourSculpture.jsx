@@ -99,7 +99,14 @@ const FourSculpture = () => {
 
             {/* Price */}
             <div className="sculpture-price">
-              <span className="price-value">$17,500</span>
+              <div className="price-item">
+                <span className="price-label">Retail price</span>
+                <span className="price-value">$33,500</span>
+              </div>
+              <div className="price-item">
+                <span className="price-label">Wholesale</span>
+                <span className="price-value">$17,500</span>
+              </div>
             </div>
           </section>
 
